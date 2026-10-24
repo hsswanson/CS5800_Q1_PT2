@@ -7,7 +7,7 @@ public class MonthTest {
     Month month;
     @Test
     public void testHas31Days(){
-        month = Month.JANUANRY;
+        month = Month.JANUARY;
         assertTrue(month.has31Days());
 
         month = Month.MARCH;
@@ -19,7 +19,7 @@ public class MonthTest {
         month = Month.JUNE;
         assertFalse(month.has31Days());
 
-        month = Month.FEBUARY;
+        month = Month.FEBRUARY;
         assertFalse(month.has31Days());
     }
 }

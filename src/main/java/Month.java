@@ -1,10 +1,10 @@
 public enum Month {
-    JANUANRY{
+    JANUARY{
         public boolean has31Days(){
             return true;
         }
     },
-    FEBUARY{
+    FEBRUARY{
         public boolean has31Days(){
             return true;
         }
