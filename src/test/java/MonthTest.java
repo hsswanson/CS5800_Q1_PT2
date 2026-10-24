@@ -10,7 +10,13 @@ public class MonthTest {
         month = Month.JANUANRY;
         assertTrue(month.has31Days());
 
+        month = Month.MARCH;
+        assertTrue(month.has31Days());
+
         month = Month.APRIL;
+        assertFalse(month.has31Days());
+
+        month = Month.JUNE;
         assertFalse(month.has31Days());
     }
 }

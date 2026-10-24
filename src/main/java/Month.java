@@ -12,7 +12,7 @@ public enum Month {
     },
     APRIL{
         public boolean has31Days(){
-            return true;
+            return false;
         }
     },
     MAY{
@@ -20,7 +20,11 @@ public enum Month {
             return true;
         }
     },
-    //JUNE{},
+    JUNE{
+        public boolean has31Days(){
+            return false;
+        }
+    },
     JULY{
         public boolean has31Days(){
             return true;
@@ -31,13 +35,21 @@ public enum Month {
             return true;
         }
     },
-    //SEPTEMBER{},
+    SEPTEMBER{
+        public boolean has31Days(){
+            return false;
+        }
+    },
     OCTOBER{
         public boolean has31Days(){
             return true;
         }
     },
-    //NOVEMBER{},
+    NOVEMBER{
+        public boolean has31Days(){
+            return false;
+        }
+    },
     DECEMBER{
         public boolean has31Days(){
             return true;
