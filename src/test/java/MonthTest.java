@@ -18,5 +18,8 @@ public class MonthTest {
 
         month = Month.JUNE;
         assertFalse(month.has31Days());
+
+        month = Month.FEBUARY;
+        assertFalse(month.has31Days());
     }
 }

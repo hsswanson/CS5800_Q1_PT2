@@ -4,7 +4,11 @@ public enum Month {
             return true;
         }
     },
-    //FEBUARY{},
+    FEBUARY{
+        public boolean has31Days(){
+            return true;
+        }
+    },
     MARCH{
         public boolean has31Days(){
             return true;
